@@ -1,0 +1,5 @@
+body {
+    background-image: url("../img/christmas-snowman.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
