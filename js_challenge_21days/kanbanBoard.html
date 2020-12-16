@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="css/kanbanBoard.css">
+</head>
+<body>
+    <h3 class="title">My To-Do List</h3>
+        <div class="app">
+            <div class="container">
+                <h4 class="todo">Todo</h4>
+                <div class="drop-zone">
+                    <div class="task" draggable="true">JavaScript : Introduction</div>
+                    <div class="task" draggable="true">JavaScript : 21 Days Challenge</div>
+                    <div class="task" draggable="true">Vue.js</div>
+                    <div class="task" draggable="true">css</div>
+                    <div class="task" draggable="true">Node.js</div>
+                </div>
+            </div>
+
+            <div class="container">
+                <h4 class="doing">Doing</h4>
+                <div class="drop-zone"></div>
+            </div>
+
+            <div class="container">
+                <h4 class="done">Done</h4>
+                <div class="drop-zone"></div>
+            </div>
+        </div>
+    <script src="js/kanbanBoard.js"></script>
+</body>
+</html>
